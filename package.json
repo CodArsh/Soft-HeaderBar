@@ -1,6 +1,6 @@
 {
   "name": "rn-soft-headerbar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -10,8 +10,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-    "keywords": ["react-native", "header", "navbar", "ui", "component"],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodArsh/Soft-HeaderBar.git"
+  },
+  "keywords": [
+    "react-native",
+    "header",
+    "navbar",
+    "ui",
+    "component"
+  ],
+  "author": "Arsil Malek",
   "license": "MIT",
   "description": "react-native-headerbar is a customizable and feature-rich HeaderBar (AppBar) component built specifically for React Native apps. It provides a flexible and modern UI out-of-the-box, offering built-in support for title, subtitle, back button, icons, search functionality, and theming — all without requiring any third-party dependencies.",
   "peerDependencies": {
