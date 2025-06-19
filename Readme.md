@@ -1,8 +1,9 @@
-# 📱 react-native-soft-headerbar
+# 📱 rn-soft-headerbar
 
 A customizable, lightweight, and modern `HeaderBar` (AppBar) component for React Native. Built for simplicity and flexibility — no third-party dependencies required.
 
 # 📸 Screenshots
+![HeaderBar Demo](https://raw.githubusercontent.com/CodArsh/Soft-HeaderBar/main/src/demo.jpg)
 
 
 ---
@@ -21,16 +22,16 @@ A customizable, lightweight, and modern `HeaderBar` (AppBar) component for React
 
 ## 📦 Installation
 ```bash
-npm install react-native-headerbar
+npm install rn-soft-headerbar
 # or
-yarn add react-native-headerbar
+yarn add rn-soft-headerbar
 ```
 
 # 🧠 Usage
 ```
 import React, { useState } from 'react';
 import { Text, View } from 'react-native';
-import HeaderBar from 'react-native-headerbar';
+import HeaderBar from 'rn-soft-headerbar';
 
 const App = () => {
   const [searchText, setSearchText] = useState('');
